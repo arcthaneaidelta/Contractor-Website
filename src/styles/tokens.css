@@ -1,0 +1,80 @@
+:root {
+  /* Core Color System */
+  --color-ivory: #F7F5F0;
+  --color-ivory-light: #FAF9F6;
+  --color-white: #FFFFFF;
+  --color-forest: #253D32;
+  --color-forest-dark: #1A2B23;
+  --color-forest-light: #325042;
+  --color-forest-surface: #1E332A;
+  --color-sage: #A9B8A5;
+  --color-sage-light: #EBF0E9;
+  --color-sage-subtle: #D8E2D5;
+  --color-stone: #E6E1D8;
+  --color-stone-light: #F2EFE9;
+  --color-stone-dark: #CCC4B8;
+  --color-ink: #292E2A;
+  --color-ink-dark: #1B1E1C;
+  --color-slate: #727870;
+  --color-slate-light: #8E958C;
+  --color-terracotta: #C46D4E;
+  --color-terracotta-light: #F7EDE8;
+  --color-amber: #D9822B;
+  --color-amber-light: #FEF6EC;
+  
+  /* Status Colors */
+  --color-success: #2E6B47;
+  --color-success-bg: #EAF4EE;
+  --color-success-border: #BCD8C7;
+  --color-warning: #B3681D;
+  --color-warning-bg: #FCF4EB;
+  --color-warning-border: #ECCDB0;
+  --color-error: #B53A30;
+  --color-error-bg: #FDF1F0;
+  --color-error-border: #F3BFBA;
+
+  /* Typography */
+  --font-heading: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing Grid (8px standard) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Restrained Shadows & Elevation */
+  --shadow-subtle: 0 1px 3px rgba(41, 46, 42, 0.05);
+  --shadow-card: 0 2px 8px rgba(41, 46, 42, 0.04), 0 1px 2px rgba(41, 46, 42, 0.02);
+  --shadow-hover: 0 6px 16px rgba(41, 46, 42, 0.06), 0 2px 4px rgba(41, 46, 42, 0.03);
+  --shadow-modal: 0 20px 40px -10px rgba(41, 46, 42, 0.12), 0 4px 12px rgba(41, 46, 42, 0.04);
+
+  /* Transitions */
+  --transition-fast: 140ms ease-out;
+  --transition-normal: 220ms ease-out;
+  --transition-slow: 360ms ease-out;
+
+  /* Layout widths */
+  --max-width-desktop: 1280px;
+  --max-width-wide: 1440px;
+  --max-width-editorial: 960px;
+  --max-width-narrow: 640px;
+}
